@@ -1,7 +1,6 @@
 pipelines:
   yamlpipe1:
     group: spring-boot-example
-    elastic_profile_id: "demo-app"
     materials:
       mygit:  # this is the name of material
         # says about type of material and url at once
@@ -10,6 +9,7 @@ pipelines:
       - build: # name of stage
           jobs:
             build: # name of the job
+              elastic_profile_id: "demo-app"
               tasks:
                - exec: # indicates type of task
                    command: mvn clean package
