@@ -1,3 +1,4 @@
+elastic_profile_id: "demo-app"
 pipelines:
   yamlpipe1:
     group: spring-boot-example
