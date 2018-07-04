@@ -9,8 +9,8 @@ pipelines:
     stages:
       - build: # name of stage
           jobs:
+            elastic_profile_id: "maven"
             build: # name of the job
-              elastic_profile_id: "maven"
               tasks:
                - exec: # indicates type of task
                    command: ls
