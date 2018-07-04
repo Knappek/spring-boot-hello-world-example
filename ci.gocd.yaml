@@ -13,4 +13,7 @@ pipelines:
               elastic_profile_id: "maven"
               tasks:
                - exec: # indicates type of task
-                   command: mvn package clean
+                   command: mvn
+                   arguments:
+                     - package
+                     - clean
