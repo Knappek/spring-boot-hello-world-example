@@ -6,8 +6,7 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: ls
-  args:
-    - -la
+  path: cat
+  args: [resource-tutorial/task_hello_world.yml]
 inputs:
   - name: resource-tutorial
