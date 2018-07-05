@@ -1,7 +1,4 @@
 ---
-inputs:
-  - name: spring-boot-hello-world-example
-
 platform: linux
 
 image_resource:
@@ -9,5 +6,4 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: ls
-  args: [-la]
+  path: pwd
