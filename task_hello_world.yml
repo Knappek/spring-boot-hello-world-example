@@ -9,6 +9,6 @@ run:
   path: ls
   args:
     - -la
-    - resource-tutorial
+    - source-code
 inputs:
-  - name: resource-tutorial
+  - name: source-code
