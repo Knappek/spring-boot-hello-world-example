@@ -6,5 +6,5 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: echo
-  args: [ls -la]
+  path: ls
+  args: [-la]
