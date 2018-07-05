@@ -9,3 +9,5 @@ run:
   path: ls
   args:
     - -la
+inputs:
+  - name: resource-tutorial
