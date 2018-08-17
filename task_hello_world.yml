@@ -7,6 +7,6 @@ image_resource:
 
 run:
   path: cat
-  args: [resource-tutorial/README.md]
+  args: [resource-tutorial/Jenkinsfile]
 inputs:
   - name: resource-tutorial
