@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
    @RequestMapping("/")
    public String sayHello() {
-      return "Hello Spring Boot - new deployment";
+      return "Hello Spring Boot - new deployment using AWS CodePipeline";
    }
 }
